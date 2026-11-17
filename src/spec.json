@@ -1,0 +1,289 @@
+{
+  "title": "Agenda eventi e iscrizioni",
+  "description": "Gestione degli eventi culturali della biblioteca, delle iscrizioni e dei posti disponibili.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "cruscotto",
+      "title": "Cruscotto",
+      "description": "Panoramica degli appuntamenti e delle iscrizioni.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "8"
+        },
+        {
+          "label": "Iscrizioni totali",
+          "value": "96"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "42"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Ora",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture tra le Nubi",
+          "12/06/2026",
+          "17:00",
+          "Sala Lumo",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Racconti di Vela",
+          "14/06/2026",
+          "18:00",
+          "Giardino delle Storie",
+          "30",
+          "22",
+          "8"
+        ],
+        [
+          "Laboratorio di carta stellata",
+          "16/06/2026",
+          "16:30",
+          "Atelier Nubi",
+          "16",
+          "16",
+          "0"
+        ],
+        [
+          "Pagine in musica",
+          "19/06/2026",
+          "17:30",
+          "Sala Lumo",
+          "28",
+          "21",
+          "7"
+        ],
+        [
+          "Storie in cerchio",
+          "21/06/2026",
+          "10:30",
+          "Spazio Vela",
+          "20",
+          "20",
+          "0"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta gli appuntamenti e registra nuovi eventi. La tabella può essere cercata e filtrata per luogo.",
+      "metrics": [
+        {
+          "label": "Eventi attivi",
+          "value": "8"
+        },
+        {
+          "label": "Posti complessivi",
+          "value": "190"
+        },
+        {
+          "label": "Iscritti",
+          "value": "148"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Ora",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture tra le Nubi",
+          "12/06/2026",
+          "17:00",
+          "Sala Lumo",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Racconti di Vela",
+          "14/06/2026",
+          "18:00",
+          "Giardino delle Storie",
+          "30",
+          "22",
+          "8"
+        ],
+        [
+          "Laboratorio di carta stellata",
+          "16/06/2026",
+          "16:30",
+          "Atelier Nubi",
+          "16",
+          "16",
+          "0"
+        ],
+        [
+          "Pagine in musica",
+          "19/06/2026",
+          "17:30",
+          "Sala Lumo",
+          "28",
+          "21",
+          "7"
+        ],
+        [
+          "Storie in cerchio",
+          "21/06/2026",
+          "10:30",
+          "Spazio Vela",
+          "20",
+          "20",
+          "0"
+        ],
+        [
+          "Il cielo in una pagina",
+          "23/06/2026",
+          "17:00",
+          "Atelier Nubi",
+          "18",
+          "12",
+          "6"
+        ],
+        [
+          "Scambio di racconti",
+          "25/06/2026",
+          "18:00",
+          "Sala Lumo",
+          "26",
+          "17",
+          "9"
+        ],
+        [
+          "Favole al tramonto",
+          "28/06/2026",
+          "19:00",
+          "Giardino delle Storie",
+          "28",
+          "21",
+          "7"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Ora",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Gestisci le adesioni agli eventi e verifica i posti residui. Filtra la tabella per evento o stato.",
+      "metrics": [
+        {
+          "label": "Iscrizioni confermate",
+          "value": "96"
+        },
+        {
+          "label": "In attesa",
+          "value": "5"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Partecipante",
+        "Data iscrizione",
+        "Stato",
+        "Posti prenotati"
+      ],
+      "rows": [
+        [
+          "Letture tra le Nubi",
+          "Mira Lumo",
+          "02/06/2026",
+          "Confermata",
+          "1"
+        ],
+        [
+          "Letture tra le Nubi",
+          "Tavi Nubi",
+          "03/06/2026",
+          "Confermata",
+          "1"
+        ],
+        [
+          "Racconti di Vela",
+          "Neri Vela",
+          "04/06/2026",
+          "Confermata",
+          "2"
+        ],
+        [
+          "Laboratorio di carta stellata",
+          "Sira Lumo",
+          "04/06/2026",
+          "Confermata",
+          "1"
+        ],
+        [
+          "Pagine in musica",
+          "Voli Nubi",
+          "05/06/2026",
+          "In attesa",
+          "1"
+        ],
+        [
+          "Storie in cerchio",
+          "Eli Vela",
+          "06/06/2026",
+          "Confermata",
+          "1"
+        ],
+        [
+          "Il cielo in una pagina",
+          "Luni Lumo",
+          "07/06/2026",
+          "Confermata",
+          "1"
+        ],
+        [
+          "Scambio di racconti",
+          "Rami Nubi",
+          "08/06/2026",
+          "Confermata",
+          "2"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Partecipante",
+        "Data iscrizione",
+        "Stato",
+        "Posti prenotati"
+      ]
+    }
+  ]
+}
